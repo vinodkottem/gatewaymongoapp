@@ -26,3 +26,16 @@ allow connections to mongodb ip and port which is running on (whihc is noting bu
  hostname:port                     path             value                
  127.0.0.1:27017                                  Allow                                
  9.XXX.XXX.11:27017                                Allow     
+
+
+
+
+
+RESOURCES
+
+https://www.ibm.com/blogs/bluemix/2015/04/reaching-enterprise-backend-bluemix-secure-gateway/
+https://www.ibm.com/developerworks/cloud/library/cl-connect-on-prem-app-secure-gateway-service-bluemix-trs/index.html
+https://github.com/IBM-Bluemix/onprem-integration-demo#phase-3-create-a-secure-gateway-connection
+http://stackoverflow.com/questions/40086263/connect-bluemix-nodejs-app-to-on-premise-server-using-secure-gateway
+https://www.ibm.com/developerworks/cloud/library/cl-connect-on-prem-app-secure-gateway-service-bluemix-trs/index.html
+xxx http://datascience.ibm.com/blog/working-with-on-premises-databases-step-by-step/
