@@ -8,7 +8,9 @@ var bodyParser = require('body-parser');
 // New Code
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/gatewayapp');
+//var db = monk('localhost:27017/gatewayapp');
+var db = monk(''cap-XX-XX-XX-XX.XXXXXXXXX.ibmcloud.com:151XXX/gatewayapp'');
+
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
